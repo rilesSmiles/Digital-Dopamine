@@ -1,0 +1,268 @@
+
+*{margin: 0;
+    padding: 0;
+    }
+    
+    /*general rules*/
+    h1
+    {   Font-family: "Rubik Moonrocks";
+        font-weight: 400;
+        color: #562d33;
+        padding: 1em;}
+    h3
+    {   font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        color: black;}
+    h4
+    {   font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+        margin: 2em;
+        margin-top: .5em;
+        margin-bottom: 1em;}
+    button
+    {   font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+        Font-size: 16px;
+        background-color: #ba6b32;
+        border-color: #f5e5d4;
+        border-style:inherit;
+        color: #f5e5d4;
+        margin-right: 15px;
+        height: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 1em;}
+    a
+    {   color: #f5e5d4;
+        text-decoration: none;}
+    button:hover
+    {   color: black;
+        background-color: #c6c09c;}
+    .card
+    {text-align: center;}
+    main
+    {background-color: #f5e5d4;}
+    .card-title
+    {text-align: center;
+        margin-top: 2em;}
+    .bold-line
+    {   font-weight:900;}
+    
+    /*header section*/
+    .nav
+    {   float:right;
+        margin-top: 45px;}
+    header
+    { padding: 1em;
+    background-color: #c6c09c;}
+    
+    /*hero section*/
+    .hero{
+        text-align:center;
+        padding: 8em;
+        background-image: url("./background hero.png");
+        background-size:1280px ;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #562d33;
+        Font-family: "Rubik Moonrocks";
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+    
+    .intro
+    {   
+        display: grid;
+        grid-template-columns: 50% 50%;}
+    
+    .para
+    {padding-right: 1.5em;}
+    .image
+    {display: block;
+    margin: auto;
+    margin-bottom:2em;}
+    
+    .social
+    {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;}
+    /*Into sentence*/
+    
+    
+    /* cards section*/
+    .CB
+    {height: 15em}
+    .DDR
+    {height: 15em}
+    .AIGA
+    {height: 15em;}
+    .cards
+    {   display: grid;
+        grid-template-columns: 33% 33% 33%;
+        padding: 5em;
+        padding-top: .5em;}
+    
+    /*footer*/
+    footer
+    {   padding: 5em;
+    background-color: #c6c09c;
+    text-emphasis-color:#c6c09c}
+    .insta
+    {   font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+    color: #ba6b32;
+    }
+    
+    
+    /*collections page*/
+    .collections-intro
+    {color: #f5e5d4;}
+    
+    video
+    {display: block;
+    margin: auto;}
+    .video
+    {display: block;
+    margin:auto;
+    margin-top:1em;}
+    .autoplay-mov
+    { padding:1em;}
+        
+        /*general rules*/
+        h1
+        {   Font-family: "Rubik Moonrocks";
+            font-weight: 400;
+            color: #562d33;
+            padding: 1em;}
+        h3
+        {   font-family: "Major Mono Display", monospace;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            color: black;}
+        h4
+        {   font-family: "Major Mono Display", monospace;
+            font-weight: 400;
+            font-style: normal;
+            margin: 2em;
+            margin-top: .5em;
+            margin-bottom: 1em;}
+        button
+        {   font-family: "Major Mono Display", monospace;
+            font-weight: 400;
+            font-style: normal;
+            Font-size: 16px;
+            background-color: #ba6b32;
+            border-color: #f5e5d4;
+            border-style:inherit;
+            color: #f5e5d4;
+            margin-right: 15px;
+            height: 35px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 1em;}
+        a
+        {   color: #f5e5d4;
+            text-decoration: none;}
+        button:hover
+        {   color: black;
+            background-color: #c6c09c;}
+        .card
+        {text-align: center;}
+        main
+        {background-color: #f5e5d4;}
+        .card-title
+        {text-align: center;
+            margin-top: 2em;}
+        .bold-line
+        {   font-weight:900;}
+        
+        /*header section*/
+        .nav
+        {   float:right;
+            margin-top: 45px;}
+        header
+        { padding: 1em;
+        background-color: #c6c09c;}
+        
+        /*hero section*/
+        .hero{
+            text-align:center;
+            padding: 8em;
+            background-image: url("./background hero.png");
+            background-size:1280px ;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #562d33;
+            Font-family: "Rubik Moonrocks";
+            font-weight: 400;
+            font-size: 1.5em;
+        }
+        
+        .intro
+        {   
+            display: grid;
+            grid-template-columns: 50% 50%;}
+        
+        .para
+        {padding-right: 1.5em;}
+        .image
+        {display: block;
+        margin: auto;
+        margin-bottom:2em;}
+        
+        .social
+        {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-bottom: 1em;}
+        /*Into sentence*/
+        
+        
+        /* cards section*/
+        .CB
+        {height: 15em}
+        .DDR
+        {height: 15em}
+        .AIGA
+        {height: 15em;}
+        .cards
+        {   display: grid;
+            grid-template-columns: 33% 33% 33%;
+            padding: 5em;
+            padding-top: .5em;}
+        
+        /*footer*/
+        footer
+        {   padding: 5em;
+        background-color: #c6c09c;
+        text-emphasis-color:#c6c09c}
+        .insta
+        {   font-family: "Major Mono Display", monospace;
+            font-weight: 400;
+            font-style: normal;
+        color: #ba6b32;
+        }
+        
+        
+        /*collections page*/
+        .collections-intro
+        {color: #f5e5d4;}
+        
+        video
+        {display: block;
+        margin: auto;}
+        .video
+        {display: block;
+        margin:auto;
+        margin-top:1em;}
+        .autoplay-mov
+        { padding:1em;}

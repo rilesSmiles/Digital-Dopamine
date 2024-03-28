@@ -1,0 +1,9 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+background[[:space:]]hero.png filter=lfs diff=lfs merge=lfs -text
+circular[[:space:]]logo.png filter=lfs diff=lfs merge=lfs -text
+ddr-logo-circle.png filter=lfs diff=lfs merge=lfs -text
+fullcircle.png filter=lfs diff=lfs merge=lfs -text
+squarefull.png filter=lfs diff=lfs merge=lfs -text
+Full[[:space:]]Square[[:space:]]logo.png filter=lfs diff=lfs merge=lfs -text
+TAG.mp4 filter=lfs diff=lfs merge=lfs -text
+* !text !filter !merge !diff
