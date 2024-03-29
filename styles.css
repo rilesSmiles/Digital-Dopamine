@@ -266,3 +266,12 @@
         margin-top:1em;}
         .autoplay-mov
         { padding:1em;}
+
+        /*media queries*/
+        @media screen (max-width: 768px) {
+            .hero{
+                background-size: 768px;
+                font-size: .75em;
+                padding: 1em;
+            }
+        }
