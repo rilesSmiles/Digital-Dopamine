@@ -64,7 +64,7 @@
     .hero{
         text-align:center;
         padding: 8em;
-        background-image: url("./images/background hero.png");
+        background-image: url(".background hero.png");
         background-size:1280px ;
         background-repeat: no-repeat;
         background-position: center;
