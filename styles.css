@@ -278,9 +278,29 @@
             .hero{
                 background-size: 700px;
                 font-size: .75em;
-                padding: 5em;}
+                padding: 3em;}
             .nav{
-                display:contents;
-               
+                float: none;
+                padding-top: 0em;
+                margin-top: 0px;
+                width: 100%
             }
+            button{font-size: small;
+            height: 30px;
+            margin-left: 1px;
+            margin-right: 1px;}
+            .intro{
+                display: block;
+            }
+            .cards
+            {display: block;
+                align-content: center;
+            }
+            .card
+            {margin-bottom: 1em;}
+
+            .logocirc{margin-bottom: 1em;}
+
+            iframe{width: 600px;
+            display: block;}
         }
