@@ -301,6 +301,12 @@
 
             .logocirc{margin-bottom: 1em;}
 
-            iframe{width: 600px;
+            iframe{width: 300px;
+                height: 175px;
             display: block;}
+
+            .intropic{
+                display: block;
+                height: 300px;
+            }
         }
