@@ -289,17 +289,6 @@
             height: 30px;
             margin-left: 1px;
             margin-right: 1px;}
-            .intro{
-                display: block;
-            }
-            .cards
-            {display: block;
-                align-content: center;
-            }
-            .card
-            {margin-bottom: 1em;}
-
-            .logocirc{margin-bottom: 1em;}
 
             iframe{width: 300px;
                 height: 175px;
@@ -307,6 +296,38 @@
 
             .intropic{
                 display: block;
-                height: 300px;
+                height: 300px;}
             }
-        }
+
+            @media (max-width: 768px) {  
+            .intro{
+                display: block;}
+
+            .hero
+            {background-size: 700px;
+                font-size:20px;
+            padding: 2em;}
+            
+            h3 
+            {font-size: 22px;}
+             .logocirc
+             {margin-bottom: 1em;
+            display: block;}
+
+            .card
+            {margin-bottom: 1em;}
+
+            .cards
+            {display: block;
+                align-content: center;}
+
+            iframe
+            {width: 500px;
+                height: 300px;
+            display: block;}
+
+            .intropic
+            {display: block;
+                height: 400px;}
+
+            }
