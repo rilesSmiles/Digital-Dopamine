@@ -58,12 +58,13 @@
         margin-top: 45px;}
     header
     { padding: 1em;
+        padding-bottom: 0em;
     background-color: #c6c09c;}
     
     /*hero section*/
     .hero{
         text-align:center;
-        padding: 8em;
+        padding: 0em;
         background-image: url(".background hero.png");
         background-size:1280px ;
         background-repeat: no-repeat;
@@ -187,15 +188,19 @@
         /*header section*/
         .nav
         {   float:right;
-            margin-top: 45px;}
+            margin-top: 45px;
+            margin-bottom: 0px;
+        }
         header
         { padding: 1em;
+            padding-bottom: 0em;
         background-color: #c6c09c;}
+
         
         /*hero section*/
         .hero{
             text-align:center;
-            padding: 8em;
+            padding: 5em;
             background-image: url("./background hero.png");
             background-size:1280px ;
             background-repeat: no-repeat;
@@ -204,6 +209,7 @@
             Font-family: "Rubik Moonrocks";
             font-weight: 400;
             font-size: 1.5em;
+            position: sticky;
         }
         
         .intro
@@ -268,10 +274,13 @@
         { padding:1em;}
 
         /*media queries*/
-        @media screen (max-width: 768px) {
+        @media (max-width:768px){
             .hero{
-                background-size: 768px;
+                background-size: 700px;
                 font-size: .75em;
-                padding: 1em;
+                padding: 5em;}
+            .nav{
+                display:contents;
+               
             }
         }
