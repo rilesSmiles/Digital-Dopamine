@@ -309,6 +309,9 @@
             .intro{
                 display: block;
             }
+            .cards
+            {display: block;
+                align-content: center;}
         }
 
             @media (min-width: 431px) and (max-width: 768px) {  
@@ -342,9 +345,17 @@
             { height: 300px;
             margin-left: 50px;} }
 
-            @media (min-width:770px) and (max-width:820px){}
+            @media (min-width:770px) and (max-width:820px){
+                .cards
+                {display: block;
+                    align-content: center;}
+            }
 
-            @media (min-width:822px) and (max-width:912px){}
+            @media (min-width:822px) and (max-width:912px){
+                .cards
+                {display: block;
+                    align-content: center;}
+            }
 
             @media (min-width:914px) and (max-width:1024px){}
 
