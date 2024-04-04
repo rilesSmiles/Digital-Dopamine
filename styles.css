@@ -287,11 +287,14 @@
                 background-size: 430px;
                 font-size: .75em;
                 padding: 2em;}
-            .nav{
-                float: none;
+            header{
+                display:contents;
                 padding-top: 0em;
                 margin-top: 0px;
                 width: 100%;
+            }
+            .nav{
+                
             }
             button{font-size: small;
             height: 30px;
