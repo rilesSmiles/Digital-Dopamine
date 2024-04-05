@@ -276,7 +276,9 @@
         /*media queries*/
         @media (max-width:430px){
             .intropic{
-                height: 200px;}
+                display: block;
+            height: 300px;
+        margin: 3em;}
 
                 iframe
                 {width: 200px;
