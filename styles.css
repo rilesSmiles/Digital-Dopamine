@@ -288,14 +288,12 @@
                 font-size: .75em;
                 padding: 2em;}
             header{
-                display:contents;
+                display:inline-block;
                 padding-top: 0em;
                 margin-top: 0px;
                 width: 100%;
             }
-            .nav{
-                
-            }
+        
             button{font-size: small;
             height: 30px;
             margin-left: 1px;
@@ -315,7 +313,7 @@
             .cards
             {display: block;
                 align-content: center;}
-        }
+            }
 
             @media (min-width: 431px) and (max-width: 768px) {  
             .intro{
@@ -324,10 +322,15 @@
             .hero
             {background-size: 700px;
                 font-size:20px;
-            padding: 2em;}
+            padding: .5em;}
+            h1 
+            {font-size: 30px;}
             
+            header{
+                display:inline-block
+            }
             h3 
-            {font-size: 22px;}
+            {font-size: 20px;}
              .logocirc
              {margin-bottom: 1em;
             display: block;}
@@ -352,14 +355,22 @@
                 .cards
                 {display: block;
                     align-content: center;}
+                .intropic{
+                    height: 300px;
+                }
             }
 
-            @media (min-width:822px) and (max-width:912px){
+            @media (min-width:821px) and (max-width:912px){
                 .cards
                 {display: block;
                     align-content: center;}
+                    .intropic{
+                        height: 330px;
+                    }
             }
 
-            @media (min-width:914px) and (max-width:1024px){}
+            @media (min-width:914px) and (max-width:1024px){
+                .intropic{height: 350px;}
+            }
 
             @media (min-width:1025px) and (max-width:1280px){}
