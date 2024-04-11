@@ -7,24 +7,29 @@
     h1
     {   Font-family: "Rubik Moonrocks";
         font-weight: 400;
+        font-size: 45px;
         color: #1E1E1E;
         padding: 1em;}
     h3
-    {   font-family: "Major Mono Display", monospace;
+    {   font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
-        font-size: 24px;
+        font-size: 40px;
         color: #1E1E1E;}
     h4
-    {   font-family: "Major Mono Display", monospace;
+    {   font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
+        font-size: 25px;
         margin: 2em;
         margin-top: .5em;
         margin-bottom: 1em;}
     button
-    {   font-family: "Major Mono Display", monospace;
-        font-weight: 400;
+    {  font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
         font-style: normal;
         Font-size: 16px;
         background-color: #ba6b32;
@@ -60,19 +65,7 @@
         padding-bottom: 0em;
     background-color: #c6c09c;}
     
-    /*hero section*/
-    .hero{
-        text-align:center;
-        padding: 0em;
-        background-image: url(".background hero.png");
-        background-size:1280px ;
-        background-repeat: no-repeat;
-        background-position: center;
-        color: #1E1E1E;
-        Font-family: "Rubik Moonrocks";
-        font-weight: 400;
-        font-size: 1.5em;
-    }
+   
     
     .intro
     {   
@@ -134,55 +127,8 @@
     margin-top:1em;}
     .autoplay-mov
     { padding:1em;}
-        
-        /*general rules*/
-        h1
-        {   Font-family: "Rubik Moonrocks";
-            font-weight: 400;
-            color: #562d33;
-            padding: 1em;}
-        h3
-        {   font-family: "Major Mono Display", monospace;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 24px;
-            color: black;}
-        h4
-        {   font-family: "Major Mono Display", monospace;
-            font-weight: 400;
-            font-style: normal;
-            margin: 2em;
-            margin-top: .5em;
-            margin-bottom: 1em;}
-        button
-        {   font-family: "Major Mono Display", monospace;
-            font-weight: 400;
-            font-style: normal;
-            Font-size: 16px;
-            background-color: #ba6b32;
-            border-color: #f5e5d4;
-            border-style:inherit;
-            color: #f5e5d4;
-            margin-right: 15px;
-            height: 35px;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-bottom: 1em;}
-        a
-        {   color: #f5e5d4;
-            text-decoration: none;}
-        button:hover
-        {   color: black;
-            background-color: #c6c09c;}
-        .card
-        {text-align: center;}
-        main
-        {background-color: #f5e5d4;}
-        .card-title
-        {text-align: center;
-            margin-top: 2em;}
-        .bold-line
-        {   font-weight:900;}
+     
+         
         
         /*header section*/
         .nav
@@ -201,13 +147,13 @@
             text-align:center;
             padding: 5em;
             background-image: url("./background hero.png");
-            background-size:1280px ;
+            background-size:1920px ;
             background-repeat: no-repeat;
             background-position: center;
-            color: #562d33;
+            color: #1e1e1e;
             Font-family: "Rubik Moonrocks";
             font-weight: 400;
-            font-size: 1.5em;
+            font-size: 40px;
             position: sticky;
         }
         
@@ -251,7 +197,8 @@
         background-color: #c6c09c;
         text-emphasis-color:#c6c09c}
         .insta
-        {   font-family: "Major Mono Display", monospace;
+        {   font-family: "Rubik", sans-serif;
+            font-optical-sizing: auto;
             font-weight: 400;
             font-style: normal;
         color: #ba6b32;
@@ -270,7 +217,7 @@
         margin:auto;
         margin-top:1em;}
         .autoplay-mov
-        { padding:1em;}
+        { padding:1em;} 
 
         /*media queries*/
         @media (max-width:430px){
@@ -290,7 +237,7 @@
                 padding: 2em;}
             header{
                 display:inline-block;
-                padding-top: 0em;
+                padding: 0;
                 margin-top: 0px;
                 width: 100%;
             }
