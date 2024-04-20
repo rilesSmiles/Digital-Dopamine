@@ -61,8 +61,7 @@
     {   float:right;
         position: sticky;}
     header
-    { padding: 1em;
-        padding-bottom: 0em;
+    { padding: 0;
     background-color: #c6c09c;}
 
     .header-logo
@@ -102,8 +101,13 @@
     .cards
     {   display: grid;
         grid-template-columns: 33% 33% 33%;
-        padding: 5em;
-        padding-top: .5em;}
+        padding: 1em;
+        padding-top: .2em;}
+
+        .cards{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
     
     /*footer*/
     footer
@@ -342,9 +346,9 @@
             
 
             @media (min-width:821px) and (max-width:912px){
-                .cards
-                {display: block;
-                    align-content: center;}
+    .cards
+{display: grid;
+grid-template-columns: 33% 33% 33%;}
                     .intropic{
                         height: 330px;
                     }
@@ -359,7 +363,9 @@
 
             @media (min-width:914px) and (max-width:1024px){
                 .intropic{height: 350px;}
-
+                .cards
+                {display: grid;
+                grid-template-columns: 33% 33% 33%;}
                 .hero
                 {background-size: 75rem;
                     font-size:3rem;
@@ -374,4 +380,7 @@
                 {background-size: 90rem;
                     font-size:3rem;
                 padding: 5rem;}
+                .cards
+                {display: grid;
+                grid-template-columns: 33% 33% 33%;}
             }
